@@ -9,7 +9,8 @@ SKYKS
 #include "print.h"
 
 int main() {
+	string str1 = "Hello World";
 	P1 = Print();
-	P1.printStr("Hello World");
+	P1.printStr(str1);
 	return 0;
 }
