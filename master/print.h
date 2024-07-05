@@ -12,7 +12,6 @@ using namespace std;
 
 class Print {
 public:
-	str1 = "Hello World";
 	Print() {
 		this.FLAG = true;
 	}
@@ -21,11 +20,7 @@ public:
 		this.FLAG = false;
 	}
 
-	void printPublicVar() {
-		std::cout << str1 << endl;
-	}
-
 	void printString(string strA) {
-		std::cout << str1 << endl;
+		std::cout << strA << endl;
 	}
 };
