@@ -1,2 +1,2 @@
-# sikku-labs
-Research as aresearcher under organisation **sikku-labs**.
+# siggy-labs
+Research as a researcher under organisation **siggy-labs**.
