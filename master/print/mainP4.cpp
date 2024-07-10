@@ -3,7 +3,6 @@ mainP4.cpp
 Main File 4
 sidb95
 bhatoresiddharth@gmail.com
-SKYKS
 */
 
 #include "print.h"
