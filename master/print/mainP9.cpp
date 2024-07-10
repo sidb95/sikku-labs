@@ -17,7 +17,7 @@ public:
         size1 = strA.size();
         Print P1;
         for (int i = 0; i < size1; i += 1) {
-            P1.printFunc(strA[i]);
+            P1.printString(strA[i]);
         }
         P1.printFunc('\n');
         return;
