@@ -18,7 +18,7 @@ class Solution {
 
 	void mainP1(string strA) {
 		P1 = Print();
-		P1.printStr(strA);
+		P1.printString(strA);
 		return;
 	}
 };
