@@ -20,7 +20,7 @@ class Solution {
         if (i == -1) {
             return;
         }
-        P1 = Print();
+        Print P1;
         P1.printString(strA[i]);
         mainP5Aux(strA, size1, i - 1);
         return;

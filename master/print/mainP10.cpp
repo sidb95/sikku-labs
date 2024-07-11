@@ -22,11 +22,12 @@ public:
     }
 
     void printStringAux(set <string>& S) {
+        Print P1;
         set <string>::iterator i;
         for (i = S.begin(); i != S.end(); i++) {
-        printString(*i);
-        printString(' ');
-     }
+            P1.printString(*i);
+            P1.printString(' ');
+        }
         return;
     }
 

@@ -5,7 +5,7 @@ bhatoresiddharth@gmail.com
 05, 10 July 2024
 */
 
-#include "print"
+#include "print.h"
 
 class Solution {
 	Solution() {
