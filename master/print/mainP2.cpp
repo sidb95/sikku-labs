@@ -9,7 +9,7 @@ bhatoresiddharth@gmail.com
 
 int main() {
 	string str1 = "Hello World";
-	P1 = Print();
+    Print P1;
 	P1.printStr(str1);
 	return 0;
 }
