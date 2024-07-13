@@ -2,7 +2,7 @@
 bubble_sort.h
 sidb95 
 bhatoresiddharth@gmail.com 
-12 July 2024
+13 July 2024
 */
 
 int* bubble_sort(int* nums, int n) {
