@@ -24,4 +24,9 @@ class Solution:
   def mainP3(self, s: str) -> None:
     self.mainP3Aux(self, s, len(s), 0)
     return None
-  
+
+"""
+Main Function 3
+"""
+def __main__():
+  pass
