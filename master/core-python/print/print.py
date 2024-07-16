@@ -13,7 +13,7 @@ class Print:
     print(s)
     return
 
-  def printCharacter(self, c: char) -> None:
+  def printCharacter(self, c: chr) -> None:
     print(c, end = "")
     return
   
