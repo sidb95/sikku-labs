@@ -1,6 +1,5 @@
 /*
-mainP6.cpp
-Program File 6
+Main File Print 6
 sidb95
 bhatoresiddharth@gmail.com
 05 July 2024
@@ -14,7 +13,6 @@ private:
     bool FLAG = false;
 
 public:
-
     Solution() {
         FLAG = true;
     }

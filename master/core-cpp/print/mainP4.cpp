@@ -1,6 +1,6 @@
 /*
 mainP4.cpp
-Main File 4
+Main File Print 4
 sidb95
 bhatoresiddharth@gmail.com
 */
@@ -8,6 +8,7 @@ bhatoresiddharth@gmail.com
 #include "print.h"
 
 class Solution {
+public:
     Solution() {
         this.FLAG = true;
     }

@@ -1,5 +1,5 @@
 /*
-Main File 3
+Main File Print 3
 sidb95
 bhatoresiddharth@gmail.com 
 05, 10 July 2024
@@ -8,6 +8,7 @@ bhatoresiddharth@gmail.com
 #include "print.h"
 
 class Solution {
+public:
 	Solution() {
 		this.FLAG = true;
 	}
