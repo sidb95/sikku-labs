@@ -18,15 +18,19 @@ class Solution:
       return None
     else:
       P1.printCharacter(s[i])
-    self.mainP3Aux(self, s, n, i +1)
+    self.mainP3Aux(s, n, i + 1)
     return None
 
   def mainP3(self, s: str) -> None:
-    self.mainP3Aux(self, s, len(s), 0)
+    P1 = Print()
+    a = self.mainP3Aux(s, P1.lengthString(s), 0)
     return None
 
 """
 Main Function 3
 """
 def __main__():
-  pass
+  S1 = Solution()
+  str1 = "Hello World!"
+  S1.mainP3(str1)
+  return
