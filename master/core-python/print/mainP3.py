@@ -25,12 +25,3 @@ class Solution:
     P1 = Print()
     a = self.mainP3Aux(s, P1.lengthString(s), 0)
     return None
-
-"""
-Main Function 3
-"""
-def __main__():
-  S1 = Solution()
-  str1 = "Hello World!"
-  S1.mainP3(str1)
-  return
