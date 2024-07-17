@@ -12,7 +12,18 @@ using namespace std;
 
 class Print {
 public:
-	    void printString(string strA) {
-	        std::cout << strA << endl;
-	}
+    void printString(string strA) {
+	       cout << strA << endl;
+        return;
+    }
+
+    void printCharacter(char c) {
+        cout << c;
+        return;
+    }
+
+    int lengthString(string strA) {
+        return strA.size();
+    }
 };
+
