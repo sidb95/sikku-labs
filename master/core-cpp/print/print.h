@@ -6,6 +6,8 @@ SKYKS
 04 July 2024
 */
 
+#include <iostream>
+
 using namespace std;
 
 class Print {
