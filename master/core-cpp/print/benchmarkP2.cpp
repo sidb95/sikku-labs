@@ -1,5 +1,5 @@
 /*
-benchmarkP1.cpp
+benchmarkP2.cpp
 sidb95
 bhatoresiddharth@gmail.com
 17 July 2024
