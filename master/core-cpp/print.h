@@ -12,15 +12,7 @@ using namespace std;
 
 class Print {
 public:
-	Print() {
-		this.FLAG = true;
-	}
-
-	Print() {
-		this.FLAG = false;
-	}
-
-	void printString(string strA) {
-		std::cout << strA << endl;
+	    void printString(string strA) {
+	        std::cout << strA << endl;
 	}
 };
