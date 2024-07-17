@@ -28,10 +28,10 @@ public:
 	  }
 
     void mainP3(string strA) {
-		      int size1 = strA.size();
-		      mainP3Aux(strA, size1, 0);
-		      return;
-	   }
+        int size1 = strA.size();
+        mainP3Aux(strA, size1, 0);
+        return;
+    }
 };
 
 
