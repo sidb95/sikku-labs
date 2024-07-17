@@ -18,11 +18,20 @@ public:
 
 class Solution {
 public:
-    void mainP1(string strA) {
-        Print P1;
-        P1.printString(strA);
-        return;
-    }
+	void mainP3Aux(string strA, int n, int i) {
+		Print P1;
+		if (i == n) {
+			return;
+		}
+		P1.printStr(strA[i]);
+		return;
+	}
+
+	void mainP3(string strA) {
+		int size1 = strA.size();
+		mainP3Aux(strA, size1, 0);
+		return;
+	}
 };
 
 
