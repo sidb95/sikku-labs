@@ -1,3 +1,10 @@
+"""
+generateGibberish.py
+sidb95 
+bhatoresiddharth@gmail.com 
+16 July 2024
+"""
+
 import random
 
 word_length = [100, 200]
