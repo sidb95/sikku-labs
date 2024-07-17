@@ -21,10 +21,10 @@ public:
     void mainP3Aux(string strA, int n, int i) {
         Print P1;
         if (i == n) {
-			         return;
+            return;
 		      }
-		      P1.printString(strA[i]);
-		      return;
+        P1.printString(strA[i]);
+        return;
 	  }
 
     void mainP3(string strA) {
