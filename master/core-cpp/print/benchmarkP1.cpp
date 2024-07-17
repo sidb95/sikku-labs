@@ -7,7 +7,18 @@ bhatoresiddharth@gmail.com
 
 #include <iostream>
 #include <chrono>
-#include "mainP1.h"
+
+
+
+class Solution {
+public:
+    void mainP1(string strA) {
+        Print P1;
+        P1.printString(strA);
+        return;
+    }
+};
+
 
 using namespace std;
 
