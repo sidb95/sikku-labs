@@ -8,9 +8,10 @@ bhatoresiddharth@gmail.com
 #include "print.h"
 
 class Solution {
-	void mainP1(string strA) {
-		Print P1;
-		P1.printString(strA);
-		return;
-	}
+public:
+    void mainP1(string strA) {
+		      Print P1;
+		      P1.printString(strA);
+		      return;
+	   }
 };
