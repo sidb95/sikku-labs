@@ -8,7 +8,13 @@ bhatoresiddharth@gmail.com
 #include <iostream>
 #include <chrono>
 
-
+class Print {
+public:
+    void printString(string strA) {
+        cout << strA << endl;
+        return;
+    }
+};
 
 class Solution {
 public:
@@ -29,7 +35,7 @@ int main() {
     auto start = chrono::high_resolution_clock::now();
     S1.mainP1(s);
     auto end = chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::seconds>(end - start);
+    auto duration = std::chrono::duration_cast<chrono::seconds>(end - start);
     cout << duration.count() << endl;
     return 0;
 }
