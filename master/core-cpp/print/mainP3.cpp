@@ -9,14 +9,6 @@ bhatoresiddharth@gmail.com
 
 class Solution {
 public:
-	Solution() {
-		this.FLAG = true;
-	}
-
-	~Solution() {
-		this.FLAG = false;
-	}
-
 	void mainP3Aux(string strA, int n, int i) {
 		Print P1;
 		if (i == n) {
@@ -32,10 +24,3 @@ public:
 		return;
 	}
 };
-
-int main() {
-	Solution S1;
-	string str1 = "Hello World";
-	S1.mainP3(str1);
-	return 0;
-}
