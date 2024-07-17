@@ -10,8 +10,8 @@ using namespace std;
 
 class Print {
 public:
-	void printString(string strA) {
-		cout << strA << endl;
+    void printString(string strA) {
+        cout << strA << endl;
         return;
-	}
+    }
 };
