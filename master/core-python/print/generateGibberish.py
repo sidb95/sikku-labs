@@ -7,7 +7,7 @@ bhatoresiddharth@gmail.com
 
 import random
 
-word_length = [100, 200]
+word_length = [100, 1000]
 limit = [2, 7]
 
 S = (
@@ -29,6 +29,7 @@ def __main__():
   print(len(sentence))
   f = open('gibberish_1.txt', 'w')
   f.write(sentence)
+  f.write('\n')
   f.close()
 
 __main__()
