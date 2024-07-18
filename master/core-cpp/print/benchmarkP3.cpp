@@ -1,8 +1,8 @@
 /*
-benchmarkP2.cpp
+benchmarkP3.cpp
 sidb95
-bhatoresiddharth@gmail.com
-17, 18 July 2024
+bhatoresiddharth@gmail.com 
+18 July 2024
 */
 
 #include <iostream>
@@ -28,18 +28,13 @@ public:
 
 class Solution {
 public:
-    void mainP3Aux(string strA, int n, int i) {
-        Print P1;
-        if (i == n) {
-            return;
-        }
-        P1.printCharacter(strA[i]);
-        return;
-    }
-
     void mainP3(string strA) {
+        Print P1;
         int size1 = strA.size();
-        mainP3Aux(strA, size1, 0);
+        for (int i = 0; i < size1; i += 1) {
+            P1.printCharacter(strA[i]);
+        }
+        P1.printCharacter('\n');
         return;
     }
 };

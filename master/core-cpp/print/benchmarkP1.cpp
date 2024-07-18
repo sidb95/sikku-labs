@@ -3,8 +3,6 @@ benchmarkP1.cpp
 sidb95
 bhatoresiddharth@gmail.com
 17, 18 July 2024
-0
-0
 */
 
 #include <iostream>
