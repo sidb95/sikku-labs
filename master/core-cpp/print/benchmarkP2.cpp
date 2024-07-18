@@ -14,6 +14,15 @@ public:
         cout << strA << endl;
         return;
     }
+
+    void printCharacter(char c) {
+        cout << c << endl;
+        return;
+    }
+
+    int lengthString(string strA) {
+        return strA.size();
+    }
 };
 
 class Solution {
