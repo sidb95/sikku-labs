@@ -9,6 +9,8 @@ bhatoresiddharth@gmail.com
 #include <chrono>
 #include <string>
 
+using namespace std;
+
 class Print {
 public:
     void printString(string strA) {
@@ -17,7 +19,7 @@ public:
     }
 
     void printCharacter(char c) {
-        cout << c << endl;
+        cout << c;
         return;
     }
 
@@ -31,9 +33,11 @@ public:
 	void mainP3Aux(string strA, int n, int i) {
 		Print P1;
 		if (i == n) {
+            cout << endl;
 			return;
 		}
 		P1.printCharacter(strA[i]);
+        mainP3Aux(strA, n, i + 1);  
 		return;
 	}
 
@@ -44,17 +48,14 @@ public:
 	}
 };
 
-
-using namespace std;
-
 string s = "";
 
 int main() {
     Solution S1;
     auto start = chrono::high_resolution_clock::now();
-    S1.mainP1(s);
+    S1.mainP3(s);
     auto end = chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<chrono::seconds>(end - start);
+    auto duration = std::chrono::duration_cast<chrono::microseconds>(end - start);
     cout << duration.count() << endl;
     return 0;
 }
