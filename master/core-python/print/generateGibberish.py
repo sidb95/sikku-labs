@@ -7,7 +7,7 @@ bhatoresiddharth@gmail.com
 
 import random
 
-word_length = [100, 1000]
+word_length = [10000, 20000]
 limit = [2, 7]
 
 S = (
