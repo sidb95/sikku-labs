@@ -10,6 +10,15 @@ bhatoresiddharth@gmail.com
 void printString(char* s);
 void printCharacter(char c);
 void printStringRecursive(char* s, int n, int i);
+int lengthString(char* s);
+
+int lengthString(char* s) {
+    int size1 = 0;
+    while (s[size1] != '\0') {
+        size1 += 1;
+    }
+    return size1;
+}
 
 void printString(char* s) {
     int size1 = 0, i;
@@ -26,6 +35,7 @@ void printString(char* s) {
 void printStringRecursive(char* s, int n, int i) {
     if (i == n) {
         printf("\n");
+        return;
     }
     else {
         printCharacter(s[i]);

@@ -7,7 +7,7 @@ bhatoresiddharth@gmail.com
 
 import random
 
-word_length = [1000, 20000]
+word_length = [4115, 4115]
 limit = [2, 7]
 
 S = (
@@ -16,20 +16,20 @@ S = (
 )
 
 def __main__():
-  sentence = ""
+  sentence = []
   sLength = random.randint(word_length[0], word_length[1])
   print(sLength)
   for i in range(0, sLength):
-    word = ""
+    word = []
     size1 = random.randint(limit[0], limit[1])
     for i in range(0, size1):
       j = random.randint(0, 25)
-      word += S[j]
-    sentence += word + ' '
+      word.append(S[j])
+    word.append(' ')
+    sentence += word
   print(len(sentence))
   f = open('gibberish_1.txt', 'w')
-  f.write(sentence)
-  f.write('\n')
+  f.write(str(sentence))    
   f.close()
 
 __main__()
