@@ -22,10 +22,10 @@ public:
         Print P1;
         if (i == n) {
             return;
-		      }
+        }
         P1.printString(strA[i]);
         return;
-	  }
+    }
 
     void mainP3(string strA) {
         int size1 = strA.size();
