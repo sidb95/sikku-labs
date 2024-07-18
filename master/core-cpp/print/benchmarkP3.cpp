@@ -28,15 +28,20 @@ public:
 
 class Solution {
 public:
-    void mainP3(string strA) {
-        Print P1;
-        int size1 = strA.size();
-        for (int i = 0; i < size1; i += 1) {
-            P1.printCharacter(strA[i]);
-        }
-        P1.printCharacter('\n');
-        return;
-    }
+	void mainP3Aux(string strA, int n, int i) {
+		Print P1;
+		if (i == n) {
+			return;
+		}
+		P1.printCharacter(strA[i]);
+		return;
+	}
+
+	void mainP3(string strA) {
+		int size1 = strA.size();
+		mainP3Aux(strA, size1, 0);
+		return;
+	}
 };
 
 
