@@ -32,7 +32,7 @@ public:
         if (i == n) {
             return;
         }
-        P1.printString(strA[i]);
+        P1.printCharacter(strA[i]);
         return;
     }
 
