@@ -37,7 +37,7 @@ int main() {
     auto start = chrono::high_resolution_clock::now();
     S1.mainP1(s);
     auto end = chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<chrono::seconds>(end - start);
+    auto duration = std::chrono::duration_cast<chrono::microseconds>(end - start);
     cout << duration.count() << endl;
     return 0;
 }
