@@ -7,6 +7,7 @@ bhatoresiddharth@gmail.com
 
 #include <iostream>
 #include <chrono>
+#include <string>
 
 class Print {
 public:
