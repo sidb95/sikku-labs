@@ -15,5 +15,6 @@ class Solution:
     while (line != ""):
       print(line)
       line = f.readline()
+    f.close()
     print('\n')
     return
