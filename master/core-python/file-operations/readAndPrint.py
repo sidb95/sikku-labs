@@ -13,7 +13,7 @@ class Solution:
     f = open(filename, 'r')
     line = f.readline()
     while (line != ""):
-      print(line, end = "")
+      print(line)
       line = f.readline()
     print('\n')
     return
