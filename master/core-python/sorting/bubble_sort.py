@@ -10,7 +10,8 @@ class Solution:
     pass
 
   def bubbleSort(self, nums: List[int], n: int) -> List[int]:
-    while (True):
+    FLAG = True
+    while (FLAG):
       FLAG = False
       for i in range(0, n - 1):
         for j in range(i + 1, n):
