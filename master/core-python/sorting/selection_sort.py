@@ -24,7 +24,7 @@ class Solution:
     n = len(nums)
     arr = []
     for i in range(0, n):
-      arr.append(nums)
+      arr.append(minElement(nums))
     return arr
 
     
