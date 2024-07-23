@@ -14,4 +14,13 @@ class Solution:
     for i in range(0, n):
       for j in range(0, n):
         if (nums[i] < nums[j]):
-          pass
+          TEMP = nums[0]
+          nums[0] = nums[j]
+          for k in range(1, n):
+            if (k == j):
+              nums[j] = nums[i]
+            else:
+              TEMP1 = nums[k]
+              nums[k] = TEMP
+              TEMP = TEMP1
+    return nums
