@@ -13,4 +13,11 @@ class Solution:
     pass
 
   def mergeSort(self, arr: List[int], n: i t, i: int, j: int) -> List[int]:
-    pass
+    if (i >= j):
+      return arr
+    else:
+      mid = i + (j - i) / 2
+      arr = self.mergeSort(arr, n, i, mid)
+      arr = self.mergrSort(arr, n, mid + 1, j)
+      return self.mergeSortAux(arr, i, j)
+
