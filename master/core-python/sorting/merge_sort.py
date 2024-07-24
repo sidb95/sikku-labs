@@ -19,5 +19,4 @@ class Solution:
       mid = i + (j - i) / 2
       arr = self.mergeSort(arr, n, i, mid)
       arr = self.mergrSort(arr, n, mid + 1, j)
-      return self.mergeSortAux(arr, i, j)
-
+      return self.mergeSortAux(arr, n, i, j)
