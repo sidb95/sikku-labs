@@ -13,7 +13,6 @@ bool rangeSearch(vector <int>& nums, int n, int k);
 bool rangeSearch(vector <int>& nums, int n, int k) {
     int p = 0;
     int q = 0;
-    int i = 0;
     int num1 = nums[i];
     while (((num1 + q) < n) && (nums[num1 + q] < k)) {
         p += 1;
