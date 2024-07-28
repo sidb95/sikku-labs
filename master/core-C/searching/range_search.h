@@ -15,7 +15,7 @@ int range_search(int* nums, int n, int k) {
         p += 1;
         q = pow(2, p - 1);
         if ((num1 + q) > k) {
-            num1 += (q / 2)
+            num1 += (q / 2);
             p = 0;
             q = 0;
         }
