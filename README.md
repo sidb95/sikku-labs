@@ -1,2 +1,2 @@
-# skyks
-Research as an independent researcher
+# sikku-labs
+Research under organisation **sikku-labs**.

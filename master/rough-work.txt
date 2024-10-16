@@ -1,0 +1,17 @@
+print
+i = 0:
+  a + b
+i = 2 or 3 or 9:
+  -a + a * b
+i = 5 or 8:
+  a * b
+i = 1:
+  b
+i = 6:
+  a + b + a * b
+i = 8:
+  a + a * b
+i = 10:
+  c * 2
+else:
+  ' '
