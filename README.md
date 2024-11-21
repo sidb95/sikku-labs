@@ -1,2 +1,2 @@
 # sikku-labs
-Research under organisation **sikku-labs**.
+Research organisation **sikku-labs**.
